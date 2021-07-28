@@ -1,0 +1,1 @@
+../../../../../node_modules/@ihealth/ihealthlibrary-react-native/ios/ReactNativeIOSLibrary/BG5Module.h

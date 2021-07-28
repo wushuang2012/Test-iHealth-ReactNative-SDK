@@ -1,0 +1,25 @@
+{
+  "name": "ReactNativeIOSLibrary",
+  "version": "1.0.0",
+  "summary": "ReactNativeIOSLibrary",
+  "description": "ReactNativeIOSLibrary",
+  "homepage": "https://dev.ihealthlabs.com",
+  "license": "MIT",
+  "authors": {
+    "author": "author@domain.cn"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/author/RNUtils.git",
+    "tag": "master"
+  },
+  "source_files": "ReactNativeIOSLibrary/**/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

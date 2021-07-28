@@ -1,0 +1,6 @@
+module Pods_TestiHealthLibrary_TestiHealthLibraryTests {
+  umbrella header "Pods-TestiHealthLibrary-TestiHealthLibraryTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
