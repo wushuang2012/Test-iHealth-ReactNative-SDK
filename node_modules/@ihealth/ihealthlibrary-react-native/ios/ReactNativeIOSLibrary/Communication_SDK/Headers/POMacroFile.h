@@ -107,6 +107,16 @@ typedef void (^DisposePO3DisconnectBlock)(BOOL resetSuc);
  */
 typedef void (^DisposeSendPO3DataBlock)(void);
 
+/**
+ end measure
+ */
+typedef void (^DisposePO3EndMeasure)(BOOL setSuc);
+
+/**
+ turn off bt
+ */
+typedef void (^DisposePO3TurnOffBT)(BOOL setSuc);
+
 
 /**
  PO1ErrorID

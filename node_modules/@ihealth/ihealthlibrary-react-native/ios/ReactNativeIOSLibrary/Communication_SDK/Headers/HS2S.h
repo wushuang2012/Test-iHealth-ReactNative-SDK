@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (strong, nonatomic) NSString *serialNumber;
 @property (strong, nonatomic) NSString *currentUUID;
-
+@property (nonatomic,strong) NSNumber *hs2sDeviceFlag;
 /**
  *Get HS2S DeviceInfo (After the HS2S device is successfully connected, the interface must be called to synchronize the device time. Otherwise, the offline data measurement time error will be caused)
  

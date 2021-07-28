@@ -127,4 +127,5 @@
 @property (copy, nonatomic) NSString *deviceName;
 @property (copy, nonatomic) NSString *protocolString;
 @property (copy, nonatomic) NSString *modelNumber;
+@property (copy, nonatomic) NSNumber *isNew550BT;
 @end
