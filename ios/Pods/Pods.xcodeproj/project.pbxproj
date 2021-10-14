@@ -704,13 +704,13 @@
 		44E2FEA6AA4F5FA7E8236FB3FBE8BC9C /* React-Core-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE98B2C284E9D67E0DB13EF7C9578D49 /* React-Core-dummy.m */; };
 		4510E9113C4AF74ED3A00B586CDBC2AE /* RCTDivisionAnimatedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BC379C10FC866F8297000BAD6F081885 /* RCTDivisionAnimatedNode.m */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-nullability-completeness"; }; };
 		456579856FE73346B63190E48811613F /* Hazptr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E45547BD23054F560C09118222ECC6BF /* Hazptr.cpp */; settings = {COMPILER_FLAGS = "-DFOLLY_HAVE_PTHREAD=1 -DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_HAVE_LIBGFLAGS=0 -DFOLLY_HAVE_LIBJEMALLOC=0 -DFOLLY_HAVE_PREADV=0 -DFOLLY_HAVE_PWRITEV=0 -DFOLLY_HAVE_TFO=0 -DFOLLY_USE_SYMBOLIZER=0\n    -frtti\n    -fexceptions\n    -std=c++14\n    -Wno-error\n    -Wno-unused-local-typedefs\n    -Wno-unused-variable\n    -Wno-sign-compare\n    -Wno-comment\n    -Wno-return-type\n    -Wno-global-constructors"; }; };
-		457886B726B10A740036D7B3 /* iHealthSDK2.7.4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 457886B626B10A740036D7B3 /* iHealthSDK2.7.4.a */; };
 		45A627D28AAE523CB583F03393DAE2A8 /* dynamic-inl.h in Headers */ = {isa = PBXBuildFile; fileRef = 757F8446DB986476CAD47B4927A88EC6 /* dynamic-inl.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		45B36E6C971F7A316A842376DB9214F1 /* ConnectionContextStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FD5B19CE1BE40350B52C8D085742AB8 /* ConnectionContextStore.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		45BCD97A7338B8E8F16381050511C38E /* IPAddressV4.h in Headers */ = {isa = PBXBuildFile; fileRef = 29990E355B1125B047A648DF6FB412D5 /* IPAddressV4.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		45F3062926DF7BD9B7E8CF879E18880C /* SocketFileDescriptorMap.h in Headers */ = {isa = PBXBuildFile; fileRef = DF48FBAD6C7EF707EE37FDB0803E711D /* SocketFileDescriptorMap.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		45F386AF77269F59BC9871283E326042 /* BP5S.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D2920C14F5B0ECB80C91CBC6424740 /* BP5S.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		45F7DAD8D1694E76E6680F20E02C6765 /* NT13BModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7DAC27451E0D4D05B933C8D1149279 /* NT13BModule.m */; };
+		45FBE0B4271824F600B13D86 /* iHealthSDK2.7.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FBE0B3271824F600B13D86 /* iHealthSDK2.7.5.a */; };
 		4606CA41E4DFDC2D7CF4519C9E6532CB /* RCTTextAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D7BED61E23A7FD315450790C8A3D55 /* RCTTextAttributes.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		462B09A6B274FFB8F9A71E0492804175 /* RNSScreenStackHeaderConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 94CAC922ACC3A9DD8759D1A510800DC3 /* RNSScreenStackHeaderConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		463743729198709D268F8A49C8636E7C /* FramedReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1B16371F0A9ACAB1F36C58EAEA997CC /* FramedReader.cpp */; settings = {COMPILER_FLAGS = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_HAVE_LIBGFLAGS=0 -DFOLLY_HAVE_LIBJEMALLOC=0 -DFOLLY_HAVE_PREADV=0 -DFOLLY_HAVE_PWRITEV=0 -DFOLLY_HAVE_TFO=0 -DFOLLY_USE_SYMBOLIZER=0  -frtti\n    -fexceptions\n    -std=c++14\n    -Wno-error\n    -Wno-unused-local-typedefs\n    -Wno-unused-variable\n    -Wno-sign-compare\n    -Wno-comment\n    -Wno-return-type\n    -Wno-global-constructors"; }; };
@@ -4539,7 +4539,6 @@
 		4516377AA3EAB6F92490ADFB842F3335 /* Yoga.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Yoga.h; path = yoga/Yoga.h; sourceTree = "<group>"; };
 		4530E1E33F3FC0DCCD518894A456FD0B /* ErrorCode.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ErrorCode.cpp; path = rsocket/framing/ErrorCode.cpp; sourceTree = "<group>"; };
 		453563577B69AF93256BD1AD89F3C0C0 /* Yoga-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Yoga-dummy.m"; sourceTree = "<group>"; };
-		457886B626B10A740036D7B3 /* iHealthSDK2.7.4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = iHealthSDK2.7.4.a; path = "../../node_modules/@ihealth/ihealthlibrary-react-native/ios/ReactNativeIOSLibrary/Communication_SDK/iHealthSDK2.7.4.a"; sourceTree = "<group>"; };
 		457B7825015D22C69E38D8D6B5C38A06 /* HS4SModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HS4SModule.m; path = ReactNativeIOSLibrary/HS4SModule.m; sourceTree = "<group>"; };
 		4584F31CCDAF0EAC6508C5E07BE7CDA2 /* RCTImageViewManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = RCTImageViewManager.mm; sourceTree = "<group>"; };
 		45B3F456BD9208D1C5237449F2167103 /* PO1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PO1.h; sourceTree = "<group>"; };
@@ -4550,6 +4549,7 @@
 		45EA1DAEAA1C8964E1D39F4A42D87AAA /* SharedProxyCxxModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SharedProxyCxxModule.h; sourceTree = "<group>"; };
 		45EB697DDA2135E3F4B5FEAA4AC35A02 /* HazptrThrLocal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HazptrThrLocal.h; path = folly/synchronization/HazptrThrLocal.h; sourceTree = "<group>"; };
 		45EF2174915894E57E1FED9C9DA25732 /* SocketOptionMap.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = SocketOptionMap.cpp; path = folly/io/SocketOptionMap.cpp; sourceTree = "<group>"; };
+		45FBE0B3271824F600B13D86 /* iHealthSDK2.7.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = iHealthSDK2.7.5.a; sourceTree = "<group>"; };
 		461121931E32D105C1AEE6DFA4681C8B /* RCTComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTComponent.h; sourceTree = "<group>"; };
 		464FACDD7813C9AD5438FD581EFED6CF /* VirtualExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VirtualExecutor.h; path = folly/VirtualExecutor.h; sourceTree = "<group>"; };
 		465D4BAF5C1BC6F140183834022412C4 /* RCTSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTSpringAnimation.h; sourceTree = "<group>"; };
@@ -6515,7 +6515,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				457886B726B10A740036D7B3 /* iHealthSDK2.7.4.a in Frameworks */,
+				45FBE0B4271824F600B13D86 /* iHealthSDK2.7.5.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -9339,6 +9339,7 @@
 		85A5297F766F4636FE8DE40D247EC219 /* Communication_SDK */ = {
 			isa = PBXGroup;
 			children = (
+				45FBE0B3271824F600B13D86 /* iHealthSDK2.7.5.a */,
 				2B8CBADA970046862B8B3D912A5F3428 /* Headers */,
 			);
 			name = Communication_SDK;
@@ -10388,7 +10389,6 @@
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				457886B626B10A740036D7B3 /* iHealthSDK2.7.4.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

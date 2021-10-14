@@ -403,6 +403,7 @@ typedef NS_ENUM(NSInteger, BG5SError) {
     BG5SError_CommandTimeout = 500,
     ///  Command is not supported for current device.
     BG5SError_CommandNotSupport = 501,
+    BG5SError_Disconnect = 502,
 };
 
 
@@ -488,8 +489,12 @@ typedef NS_ENUM(NSUInteger, BG1SDeviceError) {
     BG1SError_HighAmbientTemperature,//High ambient temperature
     BG1SError_BleedEarly,
     BG1SError_Other,
+    BG1SError_ResultHigh,
+    BG1SError_ResultLow,
+    BG1SError_Disconnect,
     
 };
+
 typedef void(^BlockBG1SDeviceFunction)(NSDictionary *functionDict);
 
 typedef void(^BlockBG1SError)(BG1SDeviceError error);

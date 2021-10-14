@@ -17,6 +17,7 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* TestiHealthLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TestiHealthLibraryTests.m */; };
+		45D96453271818F200A33990 /* libswiftWebKit.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D96452271818F200A33990 /* libswiftWebKit.tbd */; };
 		946B02D627E685E712044CD5 /* libPods-TestiHealthLibrary-TestiHealthLibraryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7354B6ECB2995E4ED4218183 /* libPods-TestiHealthLibrary-TestiHealthLibraryTests.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		2D02E47B1E0B4A5D006451C7 /* TestiHealthLibrary-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestiHealthLibrary-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* TestiHealthLibrary-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestiHealthLibrary-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3989F9D01AD491A09BB9A65F /* Pods-TestiHealthLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestiHealthLibrary.debug.xcconfig"; path = "Target Support Files/Pods-TestiHealthLibrary/Pods-TestiHealthLibrary.debug.xcconfig"; sourceTree = "<group>"; };
+		45D96452271818F200A33990 /* libswiftWebKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftWebKit.tbd; path = usr/lib/swift/libswiftWebKit.tbd; sourceTree = SDKROOT; };
 		4D02AD62CD63E330C7C9FD14 /* Pods-TestiHealthLibrary-TestiHealthLibraryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestiHealthLibrary-TestiHealthLibraryTests.release.xcconfig"; path = "Target Support Files/Pods-TestiHealthLibrary-TestiHealthLibraryTests/Pods-TestiHealthLibrary-TestiHealthLibraryTests.release.xcconfig"; sourceTree = "<group>"; };
 		4E56CF384B687E33727A9C73 /* Pods-TestiHealthLibrary-TestiHealthLibraryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestiHealthLibrary-TestiHealthLibraryTests.debug.xcconfig"; path = "Target Support Files/Pods-TestiHealthLibrary-TestiHealthLibraryTests/Pods-TestiHealthLibrary-TestiHealthLibraryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7354B6ECB2995E4ED4218183 /* libPods-TestiHealthLibrary-TestiHealthLibraryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestiHealthLibrary-TestiHealthLibraryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45D96453271818F200A33990 /* libswiftWebKit.tbd in Frameworks */,
 				0242AFB341C1458B96971C9A /* libPods-TestiHealthLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,6 +132,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				45D96452271818F200A33990 /* libswiftWebKit.tbd */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				E122DCEAC9F86663D43F4A8F /* libPods-TestiHealthLibrary.a */,
@@ -192,8 +196,8 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				069B9DAAE37C427DB3B23354 /* [CP] Copy Pods Resources */,
-				BEEAC1AB0423D34167E86034 /* [CP] Embed Pods Frameworks */,
+				5FF7B0AEA832A996F77DBDED /* [CP] Copy Pods Resources */,
+				FC2EB6075A440817364EDC18 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,8 +219,8 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				AABCA96E3A11B74760CEB124 /* [CP] Copy Pods Resources */,
-				89356A1CE341C88FF276D9FA /* [CP] Embed Pods Frameworks */,
+				15DD09968118D014E654FAC6 /* [CP] Copy Pods Resources */,
+				1E3AE4D920FB38E95A3621F9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -361,13 +365,13 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		069B9DAAE37C427DB3B23354 /* [CP] Copy Pods Resources */ = {
+		15DD09968118D014E654FAC6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestiHealthLibrary-TestiHealthLibraryTests/Pods-TestiHealthLibrary-TestiHealthLibraryTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-TestiHealthLibrary/Pods-TestiHealthLibrary-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -406,7 +410,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestiHealthLibrary-TestiHealthLibraryTests/Pods-TestiHealthLibrary-TestiHealthLibraryTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestiHealthLibrary/Pods-TestiHealthLibrary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E3AE4D920FB38E95A3621F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestiHealthLibrary/Pods-TestiHealthLibrary-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestiHealthLibrary/Pods-TestiHealthLibrary-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2A6E42580D4DDCCD2969325F /* [CP] Check Pods Manifest.lock */ = {
@@ -467,31 +489,13 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		89356A1CE341C88FF276D9FA /* [CP] Embed Pods Frameworks */ = {
+		5FF7B0AEA832A996F77DBDED /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestiHealthLibrary/Pods-TestiHealthLibrary-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestiHealthLibrary/Pods-TestiHealthLibrary-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AABCA96E3A11B74760CEB124 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestiHealthLibrary/Pods-TestiHealthLibrary-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-TestiHealthLibrary-TestiHealthLibraryTests/Pods-TestiHealthLibrary-TestiHealthLibraryTests-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -530,10 +534,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestiHealthLibrary/Pods-TestiHealthLibrary-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestiHealthLibrary-TestiHealthLibraryTests/Pods-TestiHealthLibrary-TestiHealthLibraryTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BEEAC1AB0423D34167E86034 /* [CP] Embed Pods Frameworks */ = {
+		FC2EB6075A440817364EDC18 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -712,12 +716,16 @@
 				);
 				INFOPLIST_FILE = TestiHealthLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iHealthSDK.TestiHealthLibrary;
 				PRODUCT_NAME = TestiHealthLibrary;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -735,12 +743,16 @@
 				DEVELOPMENT_TEAM = 8982T47U8J;
 				INFOPLIST_FILE = TestiHealthLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iHealthSDK.TestiHealthLibrary;
 				PRODUCT_NAME = TestiHealthLibrary;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
