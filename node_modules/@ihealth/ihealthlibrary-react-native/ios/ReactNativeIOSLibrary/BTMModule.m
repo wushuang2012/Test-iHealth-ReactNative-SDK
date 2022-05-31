@@ -218,7 +218,9 @@ RCT_EXPORT_METHOD(setStandbyTime:(nonnull NSString *)mac :(nonnull NSNumber *)ho
     
     if ([self getTHV3WithMac:mac]!=nil) {
         
-        [[self getTHV3WithMac:mac] configIdleTime:[[NSDate date]timeIntervalSince1970] withResultBlock:^(BOOL success) {
+        NSUInteger timeInterval=[hour intValue]*60*60+[min intValue]*60+[sec intValue];
+        
+        [[self getTHV3WithMac:mac] configIdleTime:timeInterval withResultBlock:^(BOOL success) {
             
             NSDictionary* deviceInfo = @{BTM_ACTION:BTM_ACTION_CALLBACK};
             [self.bridge.eventDispatcher sendDeviceEventWithName:EVENT_NOTIFY body:deviceInfo];
