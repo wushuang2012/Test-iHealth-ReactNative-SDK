@@ -288,7 +288,7 @@ RCT_EXPORT_METHOD(getBattery:(nonnull NSString *)mac){
 }
 
 
-RCT_EXPORT_METHOD(enbleOffline:(nonnull NSString *)mac){
+RCT_EXPORT_METHOD(enableOfflineMeasurement:(nonnull NSString *)mac){
     
     
     if ([self getBP7WithMac:mac]!=nil) {
@@ -315,7 +315,7 @@ RCT_EXPORT_METHOD(enbleOffline:(nonnull NSString *)mac){
 }
 
 
-RCT_EXPORT_METHOD(disableOffline:(nonnull NSString *)mac){
+RCT_EXPORT_METHOD(disableOfflineMeasurement:(nonnull NSString *)mac){
     
     
     if ([self getBP7WithMac:mac]!=nil) {

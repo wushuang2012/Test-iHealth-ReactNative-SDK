@@ -24,11 +24,11 @@ export default {
       BP7Module.stopMeasure(mac);
     },
 
-    enbleOffline: (mac) => {
-      BP7Module.enbleOffline(mac);
+    enableOfflineMeasurement: (mac) => {
+      BP7Module.enableOfflineMeasurement(mac);
     },
-    disableOffline: (mac) => {
-      BP7Module.disableOffline(mac);
+    disableOfflineMeasurement: (mac) => {
+      BP7Module.disableOfflineMeasurement(mac);
     },
 
     getOfflineNum: (mac) => {

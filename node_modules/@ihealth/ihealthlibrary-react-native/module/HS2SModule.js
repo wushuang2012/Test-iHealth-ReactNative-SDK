@@ -1,6 +1,3 @@
-/**
- * Created by lixuesong on 11/11/2016.
- */
 'use strict';
 
 

@@ -1,6 +1,3 @@
-/**
- * Created by Jeepend on 11/11/2016.
- */
 'use strict';
 
 
